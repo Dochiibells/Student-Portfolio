@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+::selection {
+    background-color: #BA9653;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding-top: 40px;
+    background-color: rgb(255, 255, 255);
+    font-family: "Poppins";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content:  center;
+    gap: 25px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.left-strong {
+    margin: 0;
+    font-size: 15px;
+    text-align: left;
+}
+
+.name {
+    color: #963821;
+    font-size: 3.5em;
+    line-height: 1em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.header-1, .header-2, .header-3, .header-4 {
+    font-size: 3em;
+    color: #963821;
+}
+
+.header-2 { 
+    height: 1.5em;
+}
+
+.header-4 {
+    line-height: 0.7em;
+    padding-bottom: 0.8em;
+}
+
+#desc.about-me {
+    font-size: 15px;
+    margin-top: 1em;
+    padding-top: 0.5em;
+    display: inline-block; 
+}
+
+.bullet-interest {
+    font-size: 1.5em;
+    line-height: 1.2em;
+    margin-top: 1em;
+}
+
+.qoute-container {
+    font-size: 1.5em;
+    margin-top: 1.8em;
+    margin-bottom: 2em;
+}
+
+.qoute {
+    font-size: 1em;
+    line-height: 1em;
+    margin-top: 0.5em;
+    padding: 20px;
+}
+
+.author {
+    display: flex;
+    justify-content: end;
+}
+
+.email {
+    height: 2em;
+    font-size: 1.4em;
+    padding-top: 0.4em;
+    padding-bottom: 0.5em;
+    text-align: center;
+}
+
+.parent-socials {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials {
+    font-size: 44px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1em;
+}
+
+.social-links {
+    color: #000000;
+}
+
+.social-links:hover {
+    color: rgb(255, 255, 255);
+}
+
+.container-profile, .container-about, .container-skills, .container-interests, .container-contact {
+    background-color: rgb(0, 122, 51);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    box-shadow: 10px 10px rgba(0, 122, 51, 0.6);
+    color: black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: left;
+    transition: all ease 0.5s;
+    transform: skew(-5deg);
+}
+
+
+.container-profile:hover, .container-about:hover, .container-skills:hover, .container-interests:hover, .container-contact:hover {
+    box-shadow: 10px 10px rgba(0, 122, 51, 0.5),
+                20px 20px rgba(0, 122, 51, 0.3);
+}
+
+.container-profile {
+    width: 30em;
+    height: 19em;
+}
+
+.container-about {
+    width: 30em;
+    height: 19em;
+}
+
+.container-skills {
+    width: 20em;
+    height: 19em;
+}
+
+.container-interests {
+    width: 35em;
+    height: 19em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-contact {
+    width: 25em;
+    height: 19em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-container {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    justify-content: left;
+}
+
+.right-container {
+    line-height: 1.5em;
+    padding: 1em;
+}
+
+.mid-left-container, .mid-right-container {
+    line-height: 1.5em;
+    padding: 1em;
+    width: 15em;
+    height: 15em;
+}
+
+.mid-left-container {
+    border-right: 2px solid rgb(0, 0, 0);
+}
+
+a {
+    color: blueviolet;
+    margin-bottom: 50px;
+}
+
+img {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+
+hr.solid {
+    border-top: 3px solid #bbb;
+    width: 70px;
+    margin-top: 20px;
+}
+
+#skills-img {
+    text-align: center;
+    font-size: 4em;
+}
+
+.skills-text {
+    display: flex;
+    justify-content: center;
+}
+
+.skill {
+    gap: 10px;
+}
+
+.skills-container {
+    width: 15em;
+    padding-top: 3.5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 1em;
+    row-gap: 3em;
+    margin-top: 0.5em;
+    padding-left: 1.5em;
+}
+
+.description {
+    margin-top: 1em;
+    text-align: left;
+}
+
+@media (max-width: 480px) {
+
+    body {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        gap: 20px;
+    }
+    .name {
+        font-size: 2.5em;
+    }
+
+    .header-1, .header-2, .header-3, .header-4 {
+        font-size: 2em;
+    }
+
+    .container-profile, .container-about, .container-skills, .container-interests, .container-contact {
+        width: 20em;
+        height: 18em;
+        padding: 10px;
+        gap: 15px;
+    }
+
+    .left-container img {
+        height: 150px;
+        width: 150px;
+    }
+
+   .about-me {
+        font-size: 0.9em;
+        line-height: 1.2em;
+   }
+    .mid-left-container, .mid-right-container {
+        line-height: 1.5em;
+        padding: 1em;
+        width: 15em;
+        height: 15em;
+    }
+
+    .skills-container {
+        grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+    }
+
+    .bullet-interest, .qoute-container, .email {
+        font-size: 1em;
+    }
+}
+
+
+
