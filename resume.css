@@ -262,6 +262,16 @@ hr.solid {
     pointer-events: none; 
 }
 
+/*custom SWISH effect.*/
+.swish-text, .swish-text-faded {
+    position: absolute;
+    font-size: 55px;
+    font-weight: bold;
+    pointer-events: none;
+    transform: translateY(0px);
+    opacity: 0;
+    z-index: 9999;
+}
 
 /*for cp view.*/
 @media (max-width: 480px) {
@@ -312,6 +322,3 @@ hr.solid {
         font-size: 1em;
     }
 }
-
-
-
