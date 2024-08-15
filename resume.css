@@ -10,12 +10,12 @@
 }
 
 body {
-    height: 100vh;
-    margin: 0;
+    height: 100%;
     padding-top: 40px;
     background-color: rgb(255, 255, 255);
     font-family: "Poppins";
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     align-content:  center;
@@ -242,7 +242,7 @@ hr.solid {
     body {
         display: flex;
         flex-direction: row;
-        align-content: center;
+        justify-content: center;
         gap: 20px;
     }
     .name {
@@ -258,6 +258,7 @@ hr.solid {
         height: 18em;
         padding: 10px;
         gap: 15px;
+        overflow-y: auto;
     }
 
     .left-container img {
