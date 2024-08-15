@@ -29,10 +29,10 @@ window.addEventListener("click", function(e) {
     // Set the positions of the text elements
     swishText.style.left = `${posX}px`;
     swishText.style.top = `${posY}px`;
-    swishTextFaded1.style.left = `${posX + 10}px`;
-    swishTextFaded1.style.top = `${posY + 10}px`;
-    swishTextFaded2.style.left = `${posX + 15}px`;
-    swishTextFaded2.style.top = `${posY + 15}px`;
+    swishTextFaded1.style.left = `${posX + 15}px`;
+    swishTextFaded1.style.top = `${posY + 15}px`;
+    swishTextFaded2.style.left = `${posX + 25}px`;
+    swishTextFaded2.style.top = `${posY + 25}px`;
 
     // Animate the text elements
     const animation = [
